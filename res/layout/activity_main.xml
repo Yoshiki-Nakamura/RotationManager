@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="utf-8"?>
+<PreferenceScreen
+    xmlns:android="http://schemas.android.com/apk/res/android">
+    <PreferenceCategory android:title="名前と年齢の登録">
+        <EditTextPreference
+            android:key="user_name"
+            android:title="お名前"
+            android:summary="あなたのお名前を教えてください"
+            android:dialogTitle="お名前" />
+        <EditTextPreference
+            android:key="user_age"
+            android:title="年齢"
+            android:summary="あなたの年齢を教えてください"
+            android:dialogTitle="年齢"
+            android:inputType="number" />
+    </PreferenceCategory>
+</PreferenceScreen>

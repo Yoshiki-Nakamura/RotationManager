@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8"?>
+ <PreferenceScreen
+     xmlns:android="http://schemas.android.com/apk/res/android">
+     <PreferenceCategory android:title="回転設定">
+         <ListPreference android:title="回転に必要な強さ" android:key="@string/gyro" android:dialogTitle="回転の強さ" android:entries="@array/gyro_powers" android:entryValues="@array/gyro_powers" android:defaultValue="10"/>
+         <SwitchPreference android:title="効果音" android:summary="画面回転時に効果音を鳴らす" android:key="@string/use_se" android:defaultValue="false" android:summaryOff="false" android:summaryOn="true"/>
+         
+         
+     </PreferenceCategory>
+ </PreferenceScreen>
